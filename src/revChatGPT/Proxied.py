@@ -149,7 +149,7 @@ class Chatbot:
                     res["title"] = title
                 return r
             else:
-                return None
+                return Non
 
     def __check_response(self, response):
         if response.status_code != 200:
