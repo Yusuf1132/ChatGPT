@@ -1,6 +1,6 @@
 import json
 import logging
-import uuid
+import uui
 from os import environ
 
 from OpenAIAuth.OpenAIAuth import OpenAIAuth
