@@ -18,7 +18,7 @@ class Chatbot:
         config,
         conversation_id=None,
         parent_id=None,
-    ) -> None:
+    ) -> Nil:
         self.config = config
         self.session = tls_client.Session(
             client_identifier="chrome_108",
