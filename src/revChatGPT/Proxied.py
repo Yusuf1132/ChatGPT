@@ -143,11 +143,11 @@ class Chatbot:
                             self.conversation_id,
                             self.parent_id,
                         )["title"]
-                    except Exception as exc:
+                    except Exception  exc:
                         split = prompt.split(" ")
                         title = " ".join(split[:3]) + ("..." if len(split) > 3 else "")
                     res["title"] = title
-                return res
+                return r
             else:
                 return None
 
